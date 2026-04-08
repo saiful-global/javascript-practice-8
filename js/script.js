@@ -69,7 +69,7 @@ let remove = document.getElementById('remove')
 show.onclick = function(){
     let main = document.getElementById('main')
     let heading = document.createElement('h1')
-    heading.textContent = 'Hello world'
+    heading.textContent = 'This is a new heading'
     heading.style.textAlign = 'center'
     main.style.background = 'red'
     heading.style.color = 'white'
@@ -80,7 +80,7 @@ show.onclick = function(){
 addpara.onclick = function(){
     let main = document.getElementById('main')
     let para = document.createElement('p')
-    para.textContent = 'emnei'
+    para.textContent = 'This is a new paragraph'
     para.style.textAlign = 'center'
     para.style.color = 'white'
     main.appendChild(para)
